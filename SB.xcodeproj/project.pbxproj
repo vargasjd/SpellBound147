@@ -10,9 +10,10 @@
 		D13F122E21B0FC6D0056A567 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D13F122D21B0FC6D0056A567 /* AppDelegate.swift */; };
 		D13F123021B0FC6D0056A567 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D13F122F21B0FC6D0056A567 /* ViewController.swift */; };
 		D13F123321B0FC6D0056A567 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D13F123121B0FC6D0056A567 /* Main.storyboard */; };
-		D13F123521B0FC700056A567 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D13F123421B0FC700056A567 /* Assets.xcassets */; };
 		D13F123821B0FC700056A567 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D13F123621B0FC700056A567 /* LaunchScreen.storyboard */; };
 		D13F124321B0FC700056A567 /* SBTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D13F124221B0FC700056A567 /* SBTests.swift */; };
+		D13F124E21B101EC0056A567 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D13F124D21B101EC0056A567 /* Assets.xcassets */; };
+		D13F125321B107BC0056A567 /* Raleway in Resources */ = {isa = PBXBuildFile; fileRef = D13F125221B107BC0056A567 /* Raleway */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -30,12 +31,15 @@
 		D13F122D21B0FC6D0056A567 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D13F122F21B0FC6D0056A567 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		D13F123221B0FC6D0056A567 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		D13F123421B0FC700056A567 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D13F123721B0FC700056A567 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D13F123921B0FC700056A567 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D13F123E21B0FC700056A567 /* SBTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SBTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D13F124221B0FC700056A567 /* SBTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SBTests.swift; sourceTree = "<group>"; };
 		D13F124421B0FC700056A567 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D13F124D21B101EC0056A567 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D13F125121B106A20056A567 /* Raleway-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Raleway-Bold.ttf"; sourceTree = "<group>"; };
+		D13F125221B107BC0056A567 /* Raleway */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Raleway; sourceTree = "<group>"; };
+		D13F125421B10B3D0056A567 /* Raleway-ExtraBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Raleway-ExtraBold.ttf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,9 +84,12 @@
 				D13F122D21B0FC6D0056A567 /* AppDelegate.swift */,
 				D13F122F21B0FC6D0056A567 /* ViewController.swift */,
 				D13F123121B0FC6D0056A567 /* Main.storyboard */,
-				D13F123421B0FC700056A567 /* Assets.xcassets */,
 				D13F123621B0FC700056A567 /* LaunchScreen.storyboard */,
 				D13F123921B0FC700056A567 /* Info.plist */,
+				D13F124D21B101EC0056A567 /* Assets.xcassets */,
+				D13F125421B10B3D0056A567 /* Raleway-ExtraBold.ttf */,
+				D13F125121B106A20056A567 /* Raleway-Bold.ttf */,
+				D13F125221B107BC0056A567 /* Raleway */,
 			);
 			path = SB;
 			sourceTree = "<group>";
@@ -177,8 +184,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D13F125321B107BC0056A567 /* Raleway in Resources */,
 				D13F123821B0FC700056A567 /* LaunchScreen.storyboard in Resources */,
-				D13F123521B0FC700056A567 /* Assets.xcassets in Resources */,
+				D13F124E21B101EC0056A567 /* Assets.xcassets in Resources */,
 				D13F123321B0FC6D0056A567 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
